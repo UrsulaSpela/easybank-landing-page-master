@@ -108,12 +108,19 @@ h2{
 .articles{
     height: 660px;
     background:hsl(0, 0%, 98%);
+    padding: 95px 160px 0 165px;
 }
 .articles-items{
     display: flex;
 }
 .review{
     background: white;
+}
+.review img{
+    width: 255px;
+    height: 200px;
+    margin-bottom: 25px;
+    border-radius: 5px 5px 0 0;
 }
 /* FOOTER */
 footer{

@@ -6,10 +6,44 @@
 .main{
     width: 1440px;
     margin: 0 auto;
+    font-family: 'Public Sans', sans-serif;
 }
 /* NAVIGATION */
 nav{
     display: flex;
     justify-content: space-between;
     padding: 30px 160px 25px 160px;
+    align-items: center;
+}
+.nav-links a{
+    text-decoration: none;
+    color: hsl(233, 8%, 62%);
+    font-weight: 300;
+    margin: 0 15px;
+}
+.btn-invite{
+    width: 160px;
+    height: 45px;
+    border: none;
+    border-radius: 22.5px;
+    color: white;
+    font-weight: 400;
+    background: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+/* INTRO */
+.intro{
+    height: 660px;
+}
+/* ABOUT */
+.about{
+    height: 675px;
+}
+/* ARTICLES */
+.articles{
+    height: 660px;
+}
+/* FOOTER */
+footer{
+    height: 190px;
+    background: hsl(233, 26%, 24%);
 }

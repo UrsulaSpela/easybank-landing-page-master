@@ -33,14 +33,30 @@ nav{
 /* INTRO */
 .intro{
     height: 660px;
+    background:hsl(0, 0%, 98%);
+    display: flex;
+}
+h1{
+    font-size: 40px;
+}
+h3{
+    font-size: 18px;
 }
 /* ABOUT */
 .about{
     height: 675px;
+    background: hsl(220, 16%, 96%);
+}
+.about-items{
+    display: flex;
 }
 /* ARTICLES */
 .articles{
     height: 660px;
+    background:hsl(0, 0%, 98%);
+}
+.articles-items{
+    display: flex;
 }
 /* FOOTER */
 footer{

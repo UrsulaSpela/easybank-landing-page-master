@@ -110,17 +110,42 @@ h2{
     background:hsl(0, 0%, 98%);
     padding: 95px 160px 0 165px;
 }
+.articles h2{
+    margin-bottom: 50px;
+}
 .articles-items{
     display: flex;
 }
 .review{
     background: white;
+    width: 255px;
+    height: 395px;
+    margin-right: 25px;
 }
 .review img{
     width: 255px;
     height: 200px;
     margin-bottom: 25px;
     border-radius: 5px 5px 0 0;
+}
+.review-text{
+    padding: 0 25px;
+}
+.small-p{
+    font-size: 10px;
+    color:hsl(233, 8%, 62%);
+    margin-bottom: 10px;
+}
+.review h6{
+    font-size: 16px;
+    font-weight: 300;
+    color:hsl(233, 26%, 24%);
+    margin-bottom: 10px;
+}
+.big-p{
+    font-size: 12px;
+    font-weight: 300;
+    color:hsl(233, 8%, 62%);
 }
 /* FOOTER */
 footer{

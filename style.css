@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 1440px;
+    margin: 0 auto;
+}
+/* NAVIGATION */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 160px 25px 160px;
+}

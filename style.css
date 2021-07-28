@@ -36,6 +36,7 @@ nav{
     background:hsl(0, 0%, 98%) url(images/bg-intro-desktop.svg) no-repeat;
     background-position: 400% 50%;
     display: flex;
+    overflow-x: hidden;
 }
 .intro-text{
     padding: 180px 165px;
@@ -64,7 +65,6 @@ h3{
     width: 90%;
     position: relative;
     left: 200px;
-    overflow-x: hidden;
 }
 /* ABOUT */
 .about{
@@ -223,5 +223,61 @@ footer button{
         position: relative;
         left: 15px;
         overflow: hidden;
+    }
+    /* ABOUT */
+    .about{
+        padding: 25px;
+        text-align: center;
+        height: 1300px;
+    }
+    .about-items{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-item{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .about-item img{
+        margin-bottom: 15px;
+    }
+    .about-item h5{
+        margin-bottom: 15px;
+    }
+    /* ARTICLES */
+    .articles{
+        height: 1900px;
+        padding: 25px;
+        width: 100%;
+        justify-content: center;
+    }
+    .articles-items{
+        flex-direction: column;
+    }
+    .articles h2{
+        text-align: center;
+    }
+    .review{
+        width: 315px;
+        height: 400px;
+        margin-bottom: 30px;
+    }
+    .review img{
+        width: 315px;
+    }
+    /* FOOTER */
+    footer{
+        height: 510px;
+        flex-direction: column;
+        padding: 25px;
+    }
+    .footer-links{
+        flex-direction: column;
+    }
+    .footer-links br{
+        display: none;
+    }
+    .footer-links div{
+        margin: 0;
     }
 }

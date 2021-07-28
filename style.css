@@ -151,4 +151,37 @@ h2{
 footer{
     height: 190px;
     background: hsl(233, 26%, 24%);
+    padding: 40px 160px 45px 165px;
+    display: flex;
+}
+.footer-links{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 180px;
+}
+.footer-links div{
+    margin: 0 120px 0 0;
+}
+.footer-links a{
+    text-decoration: none;
+    color:hsl(0, 0%, 98%);
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0 0 20px 0;
+}
+footer svg{
+    margin-bottom: 50px;
+}
+footer img{
+    margin-right: 10px;
+}
+footer p{
+    color:hsl(0, 0%, 98%);
+    opacity: .7;
+    font-weight: 300;
+    font-size: 15px;
+}
+footer button{
+    position: relative;
+    left: 70px;
 }

@@ -37,6 +37,7 @@ nav{
     background-position: 400% 50%;
     display: flex;
     overflow-x: hidden;
+    overflow-y: visible;
 }
 .intro-text{
     padding: 180px 165px;
